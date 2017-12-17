@@ -1,6 +1,102 @@
+
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
-  /* font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+/* .dc-apps-list {
+    padding-bottom: 50px;
+} */
+div.spacer{
+  height: 15px;
+}
+.mdl-cell.space {
+  padding-bottom: 10px;
+}
+.demo-card-square.mdl-card {
+  min-height: 100%;
+  min-width: 100%;
+  border-radius: 1px;
+}
+.demo-card-square.mdl-card:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+}
+.demo-card-square > .mdl-card__title {
+  margin: 0;
+  font-size: 13px;
+  /* color: #fff;
+  background: #ff9800; */
+  /* background-color: #03a9f4; */
+  /* background: url('../mdl/angular-logo.png') bottom right 15% no-repeat #46B6AC; */
+}
+.deal-detail{
+  color: #666666;
+  font-size: 12px;
+}
+img {
+  vertical-align: middle;
+}
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+.product-details {
+    float: left;
+    width: 100%;
+    margin: 5px;
+    /* padding-left: 5px; */
+	  /* border: 1px solid;
+  	border-style: solid */
+}
+.product-details .savings {
+    font-weight: normal;
+    margin: 0;
+	  display: block;
+    color: #e32e26;
+    font-weight: 600;
+    font-size: 1.0rem;
+}
+.product-details .original-price {
+	text-decoration:line-through;
+	margin: 0;
+  font-size: 0.9rem;
+}
+.product-details .price {
+    color: #009933;
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+.product-details .shipping {
+    color: #009933;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+.product-details .coupon-box {
+	background-color:#f0f0f0;
+	color:#666;
+	border:1px dotted #969696;
+	overflow: auto;
+  /* max-width: 100px; */
+  width: auto;
+}
+.product-details .coupon-box span{
+	color: #FF6600;
+	font-size: 1.0rem;
+	font-weight: bold;
+}
+.product-details .coupon-text .text{
+	color: #000000;
+  font-size: 0.7rem;
+}
+.product-details .coupon-text .expiry{
+	color: #e32e26;
+  font-size: 0.6rem;
 }
 /* .sidebar-nav li a {
   color: #999999;
@@ -24,7 +120,7 @@ html, body {
   background: rgba(255,255,255,0.2);
   color: #999999;
 } */
-.card {
+/* .card {
   background: #fff;
   border-radius: 5px;
   display: inline-block;
@@ -40,4 +136,32 @@ html, body {
 
 .card-1:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+} */
+
+
+/* .jumbotron {
+  background-color: #fff;
+  padding: 15px;
+  margin-left: -7px;
+  margin-right: -7px;
+  margin-bottom: 7px;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  border: 0;
+  min-height: 170px;
+  border-radius: 8px;
 }
+.jumbotron:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron .container {
+  max-width: 100%;
+} */
