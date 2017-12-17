@@ -22,11 +22,20 @@ div.spacer{
 .demo-card-square > .mdl-card__title {
   margin: 0;
   font-size: 13px;
+  /* background-color: #FFB74D; */
   /* color: #fff;
   background: #ff9800; */
-  /* background-color: #03a9f4; */
+  background-color: #4CAF50;
   /* background: url('../mdl/angular-logo.png') bottom right 15% no-repeat #46B6AC; */
 }
+.demo-card-rightbar.mdl-card {
+  width: auto;
+  min-height: 500px;
+}
+.demo-card-rightbar>.mdl-card__title {
+  background: #F9A825;
+}
+
 .deal-detail{
   color: #666666;
   font-size: 12px;
@@ -98,6 +107,8 @@ img {
 	color: #e32e26;
   font-size: 0.6rem;
 }
+
+
 /* .sidebar-nav li a {
   color: #999999;
    display: block;

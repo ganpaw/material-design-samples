@@ -22,11 +22,19 @@ div.spacer{
 .demo-card-square > .mdl-card__title {
   margin: 0;
   font-size: 13px;
+
   /* color: #fff;
   background: #ff9800; */
-  /* background-color: #03a9f4; */
+  background-color: #90CAF9;
   /* background: url('../mdl/angular-logo.png') bottom right 15% no-repeat #46B6AC; */
 }
+.demo-card-rightbar.mdl-card {
+  height: 320px;
+}
+.demo-card-rightbar>.mdl-card__title {
+  background: #90CAF9;
+}
+
 .deal-detail{
   color: #666666;
   font-size: 12px;
