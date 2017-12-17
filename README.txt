@@ -1,6 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/anon/pen/KqYdoK.
+Material Design Samples - MDL Lite
 
- Based on: 
-Material Design by Google (http://www.google.com/design/)
-
-Material Design Animation Timing (http://codepen.io/zavoloklom/details/Jbrho/)
+https://getmdl.io
