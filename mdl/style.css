@@ -1,12 +1,19 @@
 
-html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+html, body, h1, h2, h3, h4, h5, h6, p {
+  /* font-family: 'Roboto', 'Helvetica', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
 }
 /* .dc-apps-list {
     padding-bottom: 50px;
 } */
 div.spacer{
   height: 15px;
+}
+.demo-page-title {
+  font-family: 'Open Sans', sans-serif;
+}
+div.mdl-cell {
+  font-family: 'Open Sans', sans-serif;
 }
 .mdl-cell.space {
   padding-bottom: 10px;
@@ -21,11 +28,12 @@ div.spacer{
 }
 .demo-card-square > .mdl-card__title {
   margin: 0;
-  font-size: 13px;
+  font-size: 14px;
+  background-color: #FB8C00;
   /* background-color: #FFB74D; */
   /* color: #fff;
   background: #ff9800; */
-  background-color: #4CAF50;
+  /* background-color: #4CAF50; */
   /* background: url('../mdl/angular-logo.png') bottom right 15% no-repeat #46B6AC; */
 }
 .demo-card-rightbar.mdl-card {
@@ -33,12 +41,32 @@ div.spacer{
   min-height: 500px;
 }
 .demo-card-rightbar>.mdl-card__title {
-  background: #F9A825;
+  background: #0D47A1;
+  color: #fff;
 }
-
+.deal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+.store-title {
+  vertical-align:middle;
+  line-height: 1.62857143;
+  padding-left: 15px;
+}
+.store-title span{
+	font-weight: bold;
+    font-size: 1.6rem;
+}
+.deal-title span{
+	font-weight: bold;
+    font-size: 1.6rem;
+}
+.deal-title a{
+	color: #000000;
+}
 .deal-detail{
   color: #666666;
-  font-size: 12px;
+  font-size: 14px;
 }
 img {
   vertical-align: middle;
@@ -63,22 +91,24 @@ img {
 	  /* border: 1px solid;
   	border-style: solid */
 }
+.product-details .original-price {
+	text-decoration:line-through;
+	margin: 0;
+  font-size: 15px;
+  line-height: 21px;
+}
+.product-details .price {
+    color: #009933;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+}
 .product-details .savings {
     font-weight: normal;
     margin: 0;
 	  display: block;
     color: #e32e26;
     font-weight: 600;
-    font-size: 1.0rem;
-}
-.product-details .original-price {
-	text-decoration:line-through;
-	margin: 0;
-  font-size: 0.9rem;
-}
-.product-details .price {
-    color: #009933;
-    font-weight: bold;
     font-size: 1.0rem;
 }
 .product-details .shipping {
@@ -96,16 +126,18 @@ img {
 }
 .product-details .coupon-box span{
 	color: #FF6600;
-	font-size: 1.0rem;
+	font-size: 14px;
 	font-weight: bold;
 }
 .product-details .coupon-text .text{
 	color: #000000;
-  font-size: 0.7rem;
+  font-size: 10px;
+  line-height: 14px;
 }
 .product-details .coupon-text .expiry{
 	color: #e32e26;
-  font-size: 0.6rem;
+  font-size: 10px;
+  line-height: 14px;
 }
 
 
