@@ -1,76 +1,95 @@
-
 html, body, h1, h2, h3, h4, h5, h6, p {
   /* font-family: 'Roboto', 'Helvetica', sans-serif; */
   font-family: 'Open Sans', sans-serif;
 }
+
+
 /* .dc-apps-list {
     padding-bottom: 50px;
 } */
-div.spacer{
+
+div.spacer {
   height: 15px;
 }
+
 .demo-page-title {
   font-family: 'Open Sans', sans-serif;
 }
+
 div.mdl-cell {
   font-family: 'Open Sans', sans-serif;
 }
+
 .mdl-cell.space {
   padding-bottom: 10px;
 }
+
 .demo-card-square.mdl-card {
   min-height: 100%;
   min-width: 100%;
-  border-radius: 1px;
+  border-radius: 7px;
 }
+
 .demo-card-square.mdl-card:hover {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
 }
-.demo-card-square > .mdl-card__title {
+
+.demo-card-square>.mdl-card__title {
   margin: 0;
-  font-size: 14px;
-  background-color: #FB8C00;
+  font-size: 15px;
+  background-color: #009688;
+  color: #fff;
   /* background-color: #FFB74D; */
   /* color: #fff;
   background: #ff9800; */
   /* background-color: #4CAF50; */
   /* background: url('../mdl/angular-logo.png') bottom right 15% no-repeat #46B6AC; */
 }
+
 .demo-card-rightbar.mdl-card {
   width: auto;
   min-height: 500px;
 }
+
 .demo-card-rightbar>.mdl-card__title {
   background: #0D47A1;
   color: #fff;
 }
+
 .deal-title {
   margin: 0;
   line-height: 1.42857143;
 }
+
 .store-title {
-  vertical-align:middle;
+  vertical-align: middle;
   line-height: 1.62857143;
   padding-left: 15px;
 }
-.store-title span{
-	font-weight: bold;
-    font-size: 1.6rem;
+
+.store-title span {
+  font-weight: bold;
+  font-size: 1.6rem;
 }
-.deal-title span{
-	font-weight: bold;
-    font-size: 1.6rem;
+
+.deal-title span {
+  font-weight: bold;
+  font-size: 1.6rem;
 }
-.deal-title a{
-	color: #000000;
+
+.deal-title a {
+  color: #000000;
 }
-.deal-detail{
+
+.deal-detail {
   color: #666666;
   font-size: 14px;
 }
+
 img {
   vertical-align: middle;
 }
+
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
@@ -83,59 +102,68 @@ img {
   height: auto;
   margin: auto;
 }
+
 .product-details {
-    float: left;
-    width: 100%;
-    margin: 5px;
-    /* padding-left: 5px; */
-	  /* border: 1px solid;
+  float: left;
+  width: 100%;
+  margin: 5px;
+  /* padding-left: 5px; */
+  /* border: 1px solid;
   	border-style: solid */
 }
+
 .product-details .original-price {
-	text-decoration:line-through;
-	margin: 0;
+  text-decoration: line-through;
+  margin: 0;
   font-size: 15px;
   line-height: 21px;
 }
+
 .product-details .price {
-    color: #009933;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 23px;
+  color: #009933;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
 }
+
 .product-details .savings {
-    font-weight: normal;
-    margin: 0;
-	  display: block;
-    color: #e32e26;
-    font-weight: 600;
-    font-size: 1.0rem;
+  font-weight: normal;
+  margin: 0;
+  display: block;
+  color: #e32e26;
+  font-weight: 600;
+  font-size: 1.0rem;
 }
+
 .product-details .shipping {
-    color: #009933;
-    font-size: 1.0rem;
-    font-weight: bold;
+  color: #009933;
+  font-size: 1.0rem;
+  font-weight: bold;
 }
+
 .product-details .coupon-box {
-	background-color:#f0f0f0;
-	color:#666;
-	border:1px dotted #969696;
-	overflow: auto;
+  background-color: #f0f0f0;
+  color: #666;
+  border: 1px dotted #969696;
+  overflow: auto;
   /* max-width: 100px; */
   width: auto;
 }
-.product-details .coupon-box span{
-	color: #FF6600;
-	font-size: 14px;
-	font-weight: bold;
+
+.product-details .coupon-box span {
+  color: #FF6600;
+  font-size: 14px;
+  font-weight: bold;
 }
-.product-details .coupon-text .text{
-	color: #000000;
+
+.product-details .coupon-text .text {
+  color: #000000;
   font-size: 10px;
   line-height: 14px;
 }
-.product-details .coupon-text .expiry{
-	color: #e32e26;
+
+.product-details .coupon-text .expiry {
+  color: #e32e26;
   font-size: 10px;
   line-height: 14px;
 }
@@ -152,7 +180,11 @@ img {
   font-size: 18px;
   text-decoration: none;
 } */
+
+
 /*Not in use*/
+
+
 /*
 .dc-navigation {
     -ms-flex-positive: 1;
@@ -163,6 +195,8 @@ img {
   background: rgba(255,255,255,0.2);
   color: #999999;
 } */
+
+
 /* .card {
   background: #fff;
   border-radius: 5px;
